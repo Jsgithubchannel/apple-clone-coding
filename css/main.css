@@ -228,6 +228,10 @@ body.before-load {
   will-change: transform, opacity;
 }
 
+.scroll-effect-end .sticky-elem {
+  display: noen !important;
+}
+
 .loading {
   display: flex;
   align-items: center;
@@ -241,6 +245,10 @@ body.before-load {
   background: white;
   opacity: 0;
   transition: 0.5;
+}
+
+.before-load .container {
+  display: none;
 }
 
 .before-load .loading {
@@ -279,6 +287,10 @@ body.before-load {
   stroke-dashoffset: -157;
   fill: transparent;
   animation: loading-circle-ani 1s infinite;
+}
+
+.normal-content {
+  margin-bottom: 10rem;
 }
 
 @media (min-width: 1024px) {
